@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CFA6ED41D82DAC5005C44D2 /* SwCrypttoOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFA6ED31D82DAC5005C44D2 /* SwCrypttoOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0A71E7C1CBC7D74002C5C88 /* SwCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A71E7B1CBC7D74002C5C88 /* SwCrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0A71E831CBC7D74002C5C88 /* SwCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A71E781CBC7D74002C5C88 /* SwCrypt.framework */; };
 		A0A71E881CBC7D74002C5C88 /* SwCryptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A71E871CBC7D74002C5C88 /* SwCryptTests.swift */; };
@@ -24,6 +25,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CFA6ED11D82DAC5005C44D2 /* SwCrypttoOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwCrypttoOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFA6ED31D82DAC5005C44D2 /* SwCrypttoOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwCrypttoOS.h; sourceTree = "<group>"; };
+		1CFA6ED51D82DAC5005C44D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A042DCB91CC0800F00271902 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A0A71E781CBC7D74002C5C88 /* SwCrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwCrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A71E7B1CBC7D74002C5C88 /* SwCrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwCrypt.h; sourceTree = "<group>"; };
@@ -35,6 +39,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1CFA6ECD1D82DAC5005C44D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A0A71E741CBC7D74002C5C88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,12 +64,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CFA6ED21D82DAC5005C44D2 /* SwCrypttoOS */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA6ED31D82DAC5005C44D2 /* SwCrypttoOS.h */,
+				1CFA6ED51D82DAC5005C44D2 /* Info.plist */,
+			);
+			path = SwCrypttoOS;
+			sourceTree = "<group>";
+		};
 		A0A71E6E1CBC7D74002C5C88 = {
 			isa = PBXGroup;
 			children = (
 				A042DCB91CC0800F00271902 /* README.md */,
 				A0A71E7A1CBC7D74002C5C88 /* SwCrypt */,
 				A0A71E861CBC7D74002C5C88 /* SwCryptTests */,
+				1CFA6ED21D82DAC5005C44D2 /* SwCrypttoOS */,
 				A0A71E791CBC7D74002C5C88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +89,7 @@
 			children = (
 				A0A71E781CBC7D74002C5C88 /* SwCrypt.framework */,
 				A0A71E821CBC7D74002C5C88 /* SwCryptTests.xctest */,
+				1CFA6ED11D82DAC5005C44D2 /* SwCrypttoOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +116,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1CFA6ECE1D82DAC5005C44D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFA6ED41D82DAC5005C44D2 /* SwCrypttoOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A0A71E751CBC7D74002C5C88 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,6 +135,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1CFA6ED01D82DAC5005C44D2 /* SwCrypttoOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFA6ED81D82DAC5005C44D2 /* Build configuration list for PBXNativeTarget "SwCrypttoOS" */;
+			buildPhases = (
+				1CFA6ECC1D82DAC5005C44D2 /* Sources */,
+				1CFA6ECD1D82DAC5005C44D2 /* Frameworks */,
+				1CFA6ECE1D82DAC5005C44D2 /* Headers */,
+				1CFA6ECF1D82DAC5005C44D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwCrypttoOS;
+			productName = SwCrypttoOS;
+			productReference = 1CFA6ED11D82DAC5005C44D2 /* SwCrypttoOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A0A71E771CBC7D74002C5C88 /* SwCrypt */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0A71E8C1CBC7D74002C5C88 /* Build configuration list for PBXNativeTarget "SwCrypt" */;
@@ -151,6 +199,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = irl;
 				TargetAttributes = {
+					1CFA6ED01D82DAC5005C44D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					A0A71E771CBC7D74002C5C88 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -173,11 +224,19 @@
 			targets = (
 				A0A71E771CBC7D74002C5C88 /* SwCrypt */,
 				A0A71E811CBC7D74002C5C88 /* SwCryptTests */,
+				1CFA6ED01D82DAC5005C44D2 /* SwCrypttoOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1CFA6ECF1D82DAC5005C44D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A0A71E761CBC7D74002C5C88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -195,6 +254,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1CFA6ECC1D82DAC5005C44D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A0A71E731CBC7D74002C5C88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,6 +288,44 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1CFA6ED61D82DAC5005C44D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwCrypttoOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = undabot.SwCrypttoOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		1CFA6ED71D82DAC5005C44D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwCrypttoOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = undabot.SwCrypttoOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
 		A0A71E8A1CBC7D74002C5C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -371,6 +475,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1CFA6ED81D82DAC5005C44D2 /* Build configuration list for PBXNativeTarget "SwCrypttoOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFA6ED61D82DAC5005C44D2 /* Debug */,
+				1CFA6ED71D82DAC5005C44D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A0A71E721CBC7D74002C5C88 /* Build configuration list for PBXProject "SwCrypt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
